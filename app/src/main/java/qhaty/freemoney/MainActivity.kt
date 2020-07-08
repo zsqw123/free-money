@@ -95,7 +95,7 @@ class MainActivity : Activity() {
             val s = et_decrease.text.toString()
             if (s.isNotBlank()) {
                 moneyDecrease = s.toInt() / 100.0
-                out_tv.addText("修改通货膨胀率为 $shouruIncrease \n")
+                out_tv.addText("修改通货膨胀率为 $moneyDecrease \n")
             }
         }
         bt_ana.setOnClickListener {
