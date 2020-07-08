@@ -81,7 +81,7 @@ class MainActivity : Activity() {
             val s = et_now.text.toString()
             if (s.isNotBlank()) {
                 now = s.toInt()
-                out_tv.addText("修改当前资产为 $shouru \n")
+                out_tv.addText("修改当前资产为 $now \n")
             }
         }
         bt_increase.setOnClickListener {
